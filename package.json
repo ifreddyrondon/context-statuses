@@ -1,0 +1,31 @@
+{
+  "name": "status-codes",
+  "version": "1.0.0",
+  "description": "Descriptive HTTP status codes, for code readability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifreddyrondon/status-codes.git"
+  },
+  "keywords": [
+    "http",
+    "status",
+    "codes",
+    "readability"
+  ],
+  "author": "Freddy Rondon <ifreddyrondon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifreddyrondon/status-codes/issues"
+  },
+  "homepage": "https://github.com/ifreddyrondon/status-codes#readme",
+  "engine": ">=6.7.0",
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.3.0"
+  }
+}
