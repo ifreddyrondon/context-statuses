@@ -1,12 +1,12 @@
-# status-codes
+# context-statuses
 
-Using bare status codes in your responses isn't recommended.  **status-codes** named constants that you can use to make code more obvious and readable.
+Using bare status codes in your responses isn't recommended.  **context-statuses** named constants that you can use to make code more obvious and readable.
 
 ```
-const statusCodes = require('status-codes');
+const contextStatuses = require('context-statuses');
 
 app.get('/ping', (req, res) => {
-    res.status(statusCodes.HTTP_200_OK).send('pong');
+    res.status(contextStatuses.HTTP_200_OK).send('pong');
 });
 ```
 
