@@ -1,5 +1,5 @@
 {
-  "name": "status-codes",
+  "name": "context-statuses",
   "version": "1.0.0",
   "description": "Descriptive HTTP status codes, for code readability",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifreddyrondon/status-codes.git"
+    "url": "git+https://github.com/ifreddyrondon/context-statuses.git"
   },
   "keywords": [
     "http",
@@ -19,9 +19,9 @@
   "author": "Freddy Rondon <ifreddyrondon@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ifreddyrondon/status-codes/issues"
+    "url": "https://github.com/ifreddyrondon/context-statuses/issues"
   },
-  "homepage": "https://github.com/ifreddyrondon/status-codes#readme",
+  "homepage": "https://github.com/ifreddyrondon/context-statuses#readme",
   "engine": ">=6.7.0",
   "devDependencies": {
     "eslint": "3.19.0",

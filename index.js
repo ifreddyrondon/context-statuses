@@ -2,10 +2,10 @@
 /**
  * Module dependencies
  */
-const statusCodes = require('./lib/StatusCodes');
+const contextStatuses = require('./lib/ContextStatuses');
 
 /**
  * Expose Status Codes
  */
 
-module.exports = statusCodes;
+module.exports = contextStatuses;
