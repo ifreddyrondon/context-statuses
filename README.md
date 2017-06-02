@@ -1,5 +1,11 @@
 # context-statuses
 
+[![travis build](https://img.shields.io/travis/ifreddyrondon/context-statuses.svg?style=flat-square)](https://travis-ci.org/ifreddyrondon/context-statuses)
+[![codecov coverage](https://img.shields.io/codecov/c/github/ifreddyrondon/context-statuses.svg?style=flat-square)](https://codecov.io/gh/ifreddyrondon/context-statuses)
+[![version](https://img.shields.io/npm/v/context-statuses.svg?style=flat-square)](https://www.npmjs.com/package/context-statuses)
+[![downloads](https://img.shields.io/npm/dm/context-statuses.svg?style=flat-square)](https://npm-stat.com/charts.html?package=context-statuses&from=2017-05-27)
+[![MIT License](https://img.shields.io/npm/l/context-statuses.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
 Using bare status codes in your responses isn't recommended.  **context-statuses** named constants that you can use to make code more obvious and readable.
 
 ```
