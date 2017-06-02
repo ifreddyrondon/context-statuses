@@ -2,7 +2,7 @@
 /**
  * Module dependencies
  */
-const contextStatuses = require('./lib/ContextStatuses');
+const contextStatuses = require('./lib');
 
 /**
  * Expose Status Codes
