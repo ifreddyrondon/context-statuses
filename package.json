@@ -1,6 +1,6 @@
 {
   "name": "context-statuses",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Descriptive HTTP status codes, for code readability",
   "main": "index.js",
   "scripts": {
