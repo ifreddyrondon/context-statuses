@@ -1,14 +1,16 @@
 {
   "name": "context-statuses",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Descriptive HTTP status codes, for code readability",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/ -w"
+    "commit": "git-cz",
+    "test": "mocha test/ -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifreddyrondon/context-statuses.git"
+    "url": "https://github.com/ifreddyrondon/context-statuses.git"
   },
   "keywords": [
     "http",
@@ -25,9 +27,15 @@
   "engine": ">=6.7.0",
   "devDependencies": {
     "chai": "4.0.1",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.2.0",
     "eslint-plugin-import": "2.3.0",
-    "mocha": "3.4.2"
+    "mocha": "3.4.2",
+    "semantic-release": "^6.3.6"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
