@@ -4,7 +4,7 @@
   "description": "Descriptive HTTP status codes, for code readability",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/ -w"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,10 @@
   "homepage": "https://github.com/ifreddyrondon/context-statuses#readme",
   "engine": ">=6.7.0",
   "devDependencies": {
+    "chai": "4.0.1",
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.2.0",
-    "eslint-plugin-import": "2.3.0"
+    "eslint-plugin-import": "2.3.0",
+    "mocha": "3.4.2"
   }
 }
