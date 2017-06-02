@@ -35,7 +35,9 @@
     "mocha": "3.4.2",
     "semantic-release": "^6.3.6"
   },
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
